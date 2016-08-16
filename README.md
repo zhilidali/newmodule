@@ -70,10 +70,10 @@
 ```json
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/zhilidali/Node-demos/tree/master/newmodule"
+		"url": "https://github.com/zhilidali/newmodule.git"
 	},
 	"bugs": {
 		"email": "1373653244@qq.com",
-		"url": "https://github.com/zhilidali/Node-demos/issues"
+		"url": "https://github.com/zhilidali/newmodule/issues"
 	},
 ```
