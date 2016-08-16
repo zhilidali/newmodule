@@ -1,0 +1,23 @@
+{
+	"name": "newmodule",
+	"version": "1.0.0",
+	"description": "模块创建",
+	"main": "./lib/newmodule.js",
+	"bin": "bin/newmodule.js",
+	"scripts": {
+		"test": "node ./test/newmodule.js"
+	},
+	"keywords": [
+		"模块"
+	],
+	"author": "zhilidali",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zhilidali/Node-demos/tree/master/newmodule"
+	},
+	"bugs": {
+		"email": "1373653244@qq.com",
+		"url": "https://github.com/zhilidali/Node-demos/issues"
+	},
+	"license": "MIT"
+}
