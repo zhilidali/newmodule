@@ -77,3 +77,14 @@
 		"url": "https://github.com/zhilidali/newmodule/issues"
 	},
 ```
+##8. Travis CI 基于云的分布式持续集成（Continuous Integration）服务器
+持续集成：每当代码库有变化时就会运行测试
+* 注册[Travis CI](http://travis-ci.org)，进入[profile](https://travis-ci.org/profile/zhilidali),打开开关
+* 项目中创建.yml文件(Yet Another Markup Language),告诉Travis CI要测试什么以及如何测试
+
+```yml
+	language: node_js
+	node_js:
+	 - 4
+```
+每次推送到GitHub时，Travis CI就会运行测试并报告是否有问题存在
