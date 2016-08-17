@@ -4,6 +4,12 @@
 ##2. `$ npm link`;会将模块全局第安装在计算机上，模块名称采用package.json中给出的名称
 ##3. 添加主文件
 * `lib/newmodule.js`
+
+```javascript
+	exports.hello = function() {
+		return "Hello World";
+	};
+```
 * 更新package.json
 
 ```json
